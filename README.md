@@ -7,7 +7,7 @@
 [![Requirements](https://img.shields.io/badge/Requirements-pandas%2C%20sklearn%2C%20transformers-blue)]()
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
 
- A multilingual machine learning project to detect hate speech in Hindi and Tamil using NLP and XLM-RoBERTa.
+A multilingual machine learning project to detect hate speech in Hindi and Tamil using NLP and XLM-RoBERTa.
 **Hate Speech Detector** is a multilingual machine learning project designed to automatically detect hate or offensive speech in text written in **Hindi** and **Tamil**. This project uses NLP techniques and multilingual transformer models (XLM-RoBERTa) to classify user-generated content, helping online platforms and communities moderate regional language content.
 
 This solution is intended for researchers, developers, and students building ethical AI systems to combat cyberbullying and hate speech in diverse languages.
@@ -20,14 +20,13 @@ This solution is intended for researchers, developers, and students building eth
 - 🧪 Evaluation metrics: Accuracy, F1-Score, Confusion Matrix
 - ♿ Useful for content moderation & digital safety
 
-## 🛠 Tech Stack
 
-🛠️ Tech Stack
-💡 Area                                      	🧰 Tools & Libraries
-🐍 Programming Language	Python                3.10+
-📚 Data Handling                             	pandas, numpy
-🤖 Machine Learning                          	scikit-learn, transformers
-🧠 NLP Model	                                 XLM-RoBERTa (HuggingFace Transformers)
-📊 Visualization                             	matplotlib, seaborn
-📝 Development Tools                         	Jupyter Notebook, VS Code, Google Colab
-🗃️ Dataset	                                   Hindi & Tamil hate speech datasets (from Kaggle)
+| 💡 Area                 | 🧰 Tools & Libraries                             |
+| ----------------------- | ------------------------------------------------ |
+| 🐍 Programming Language | Python 3.10+                                     |
+| 📚 Data Handling        | `pandas`, `numpy`                                |
+| 🤖 Machine Learning     | `scikit-learn`, `transformers`                   |
+| 🧠 NLP Model            | `XLM-RoBERTa` (HuggingFace Transformers)         |
+| 📊 Visualization        | `matplotlib`, `seaborn`                          |
+| 📝 Development Tools    | Jupyter Notebook, VS Code, Google Colab          |
+| 🗃️ Dataset             | Hindi & Tamil hate speech datasets (from Kaggle) |
