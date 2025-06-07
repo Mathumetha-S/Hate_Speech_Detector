@@ -45,13 +45,11 @@ hate-speech-detector/
 ├── LICENSE
 └── troubleshooting.txt
 
-📈 Model Overview
+##📈 Model Overview
+
 Tokenizer: XLM-RoBERTa Tokenizer
-
 Model: XLMRobertaForSequenceClassification
-
 Training: Fine-tuned with multilingual hate speech data
-
 Metrics: Accuracy, Precision, Recall, F1
 
 📜 License
