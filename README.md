@@ -47,10 +47,11 @@ hate-speech-detector/
 
 ## 📈 Model Overview
 
-Tokenizer: XLM-RoBERTa Tokenizer
-Model: XLMRobertaForSequenceClassification
-Training: Fine-tuned with multilingual hate speech data
-Metrics: Accuracy, Precision, Recall, F1
+Tokenizer : XLM-RoBERTa Tokenizer
+Model     : XLMRobertaForSequenceClassification
+Training  : Fine-tuned with multilingual hate speech data
+Metrics   : Accuracy, Precision, Recall, F1
+
 
 ## 📜 License
 This project is licensed under the MIT License – see the LICENSE file for details.
