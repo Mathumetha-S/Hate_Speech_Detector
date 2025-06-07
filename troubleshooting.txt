@@ -1,0 +1,67 @@
+Hate_Speech_Detector Troubleshooting with Issues & Solutions
+
+1. Installation Issues
+---------------------
+Issue: pip install fails or package not found.
+Solution:
+- Upgrade pip: python -m pip install --upgrade pip
+- Use a virtual environment.
+- Install packages one-by-one to isolate the problem.
+
+2. Dataset Loading Issues
+------------------------
+Issue: FileNotFoundError or wrong columns.
+Solution:
+- Verify dataset file path.
+- Check CSV columns (should include 'text' and 'label').
+- Use encoding: pd.read_csv('file.csv', encoding='utf-8')
+
+3. GPU Not Detected
+-------------------
+Issue: torch.cuda.is_available() returns False.
+Solution:
+- Ensure compatible CUDA toolkit and GPU drivers installed.
+- Check PyTorch version matches CUDA version.
+- Restart system after driver installation.
+
+4. Model Download Fails
+----------------------
+Issue: Transformer model won’t load, internet error.
+Solution:
+- Check internet connection.
+- Clear cache: rm -rf ~/.cache/huggingface/transformers
+- Use offline cached models if available.
+
+5. Jupyter Notebook Widgets Not Displaying
+------------------------------------------
+Issue: Widgets not showing or error in notebook.
+Solution:
+- Install ipywidgets: pip install ipywidgets
+- Enable widgets: jupyter nbextension enable --py widgetsnbextension
+- Restart notebook kernel.
+
+6. Common Python Errors
+-----------------------
+Issue: KeyError on dataframe columns.
+Solution:
+- Double-check column names and spelling.
+- Print dataframe.head() to confirm.
+
+Issue: ModuleNotFoundError.
+Solution:
+- Confirm package installed in current environment.
+- Activate correct virtual environment.
+
+7. Memory Errors
+---------------
+Issue: Out of memory during training.
+Solution:
+- Reduce batch size.
+- Use CPU-only if GPU memory is limited.
+
+8. General Tips
+---------------
+- Always use virtual environments.
+- Keep `requirements.txt` updated.
+- Restart kernel after installing new packages.
+- Provide error logs when seeking help.
