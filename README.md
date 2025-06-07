@@ -30,3 +30,19 @@ This solution is intended for researchers, developers, and students building eth
 | 📊 Visualization        | `matplotlib`, `seaborn`                          |
 | 📝 Development Tools    | Jupyter Notebook, VS Code, Google Colab          |
 | 🗃️ Dataset             | Hindi & Tamil hate speech datasets (from Kaggle) |
+
+## 📁 Folder Structure
+hate-speech-detector/
+├── data/
+│ ├── Hatespeech-Hindi_Train.csv
+│ ├── Hatespeech-Hindi_Valid.csv
+│ └── tamil_offensive_speech_train.csv
+├── models/
+│ └── xlm-roberta/
+├── hate_speech_classifier.ipynb
+├── requirements.txt
+├── README.md
+├── LICENSE
+└── troubleshooting.txt
+
+
