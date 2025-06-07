@@ -20,7 +20,7 @@ This solution is intended for researchers, developers, and students building eth
 - 🧪 Evaluation metrics: Accuracy, F1-Score, Confusion Matrix
 - ♿ Useful for content moderation & digital safety
 
-
+## 🛠 Tech Stack
 | 💡 Area                 | 🧰 Tools & Libraries                             |
 | ----------------------- | ------------------------------------------------ |
 | 🐍 Programming Language | Python 3.10+                                     |
