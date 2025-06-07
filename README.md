@@ -6,4 +6,5 @@
 [![License](https://img.shields.io/badge/License-MIT-brightgreen)](./LICENSE)
 [![Requirements](https://img.shields.io/badge/Requirements-pandas%2C%20sklearn%2C%20transformers-blue)]()
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
-  A multilingual machine learning project to detect hate speech in Hindi and Tamil using NLP and XLM-RoBERTa.
+
+ A multilingual machine learning project to detect hate speech in Hindi and Tamil using NLP and XLM-RoBERTa.
