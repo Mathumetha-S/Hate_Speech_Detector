@@ -7,52 +7,57 @@
 [![Requirements](https://img.shields.io/badge/Requirements-pandas%2C%20sklearn%2C%20transformers-blue)]()
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
 
-A multilingual machine learning project to detect hate speech in Hindi and Tamil using NLP and XLM-RoBERTa.
-**Hate Speech Detector** is a multilingual machine learning project designed to automatically detect hate or offensive speech in text written in **Hindi** and **Tamil**. This project uses NLP techniques and multilingual transformer models (XLM-RoBERTa) to classify user-generated content, helping online platforms and communities moderate regional language content.
+**Tamil Hate Speech Detector 🇮🇳🗣️**
+Tamil Hate Speech Detector is a specialized machine learning project built to automatically detect hate or offensive speech in Tamil text. Using Natural Language Processing (NLP) techniques combined with multilingual transformer models (XLM-RoBERTa), this project aims to classify Tamil user-generated content into normal, offensive, or hateful categories. It is designed to help platforms and communities moderate Tamil regional language content and maintain a safe digital environment.
 
-This solution is intended for researchers, developers, and students building ethical AI systems to combat cyberbullying and hate speech in diverse languages.
+This project is intended for researchers, developers, and students who want to build ethical AI systems that address the increasing problem of cyberbullying and online hate speech in Tamil.
 
-## 🚀 Features
+🚀**Features**
+🧠 **Tamil Language Hate Speech Detection**
+    Focused exclusively on Tamil regional language content
+⚡ **State-of-the-art Transformer Model**
+    Fine-tuned XLM-RoBERTa for Tamil hate speech classification
+📚**Dataset**
+    Uses real-world Tamil datasets from Kaggle and research sources
+📊 **Model Evaluation**
+    Comprehensive metrics: Accuracy, Precision, Recall, F1-Score, Confusion Matrix
+🧪 **Research-ready**
+    Suitable for academic research, AI/ML projects, and thesis work
+♿ **Impact**
+    Supports Tamil content moderation
+Helps in promoting safe, respectful, and inclusive online spaces for Tamil-speaking users
 
-- 🧠 Multilingual classification for Hindi and Tamil
-- 📊 Model training using XLM-RoBERTa transformer
-- 📚 Real-world datasets from Kaggle and research sources
-- 🧪 Evaluation metrics: Accuracy, F1-Score, Confusion Matrix
-- ♿ Useful for content moderation & digital safety
 
-## 🛠 Tech Stack
-| 💡 Area                 | 🧰 Tools & Libraries                             |
-| ----------------------- | ------------------------------------------------ |
-| 🐍 Programming Language | Python 3.10+                                     |
-| 📚 Data Handling        | `pandas`, `numpy`                                |
-| 🤖 Machine Learning     | `scikit-learn`, `transformers`                   |
-| 🧠 NLP Model            | `XLM-RoBERTa` (HuggingFace Transformers)         |
-| 📊 Visualization        | `matplotlib`, `seaborn`                          |
-| 📝 Development Tools    | Jupyter Notebook, VS Code, Google Colab          |
-| 🗃️ Dataset             | Hindi & Tamil hate speech datasets (from Kaggle) |
+| 💡 Area                     | 🧰 Tools & Libraries                                           |
+| --------------------------- | -------------------------------------------------------------- |
+| 🐍 **Programming Language** | Python 3.10+                                                   |
+| 📚 **Data Handling**        | `pandas`, `numpy`                                              |
+| 🤖 **Machine Learning**     | `scikit-learn`, `transformers`                                 |
+| 🧠 **NLP Model**            | `XLM-RoBERTa` (Hugging Face Transformers)                      |
+| 📊 **Visualization**        | `matplotlib`, `seaborn`                                        |
+| 📝 **Development Tools**    | Jupyter Notebook, VS Code, Google Colab                        |
+| 🗃️ **Dataset**             | **Tamil Hate Speech Dataset** (from Kaggle & Research Sources) |
 
-## 📁 Folder Structure
-hate-speech-detector/
+tamil-hate-speech-detector/
 ├── data/
-│ ├── Hatespeech-Hindi_Train.csv
-│ ├── Hatespeech-Hindi_Valid.csv
-│ └── tamil_offensive_speech_train.csv
+│   └── tamil_hate_speech_train.csv
+│   └── tamil_hate_speech_valid.csv
+│   └── tamil_hate_speech_test.csv
 ├── models/
-│ └── xlm-roberta/
-├── hate_speech_classifier.ipynb
+│   └── xlm-roberta/
+├── tamil_hate_speech_detector.ipynb
 ├── requirements.txt
 ├── README.md
 ├── LICENSE
 └── troubleshooting.txt
 
-## 📈 Model Overview
 
-| Component | Description                                   |
-| --------- | --------------------------------------------- |
-| Tokenizer | XLM-RoBERTa Tokenizer                         |
-| Model     | XLMRobertaForSequenceClassification           |
-| Training  | Fine-tuned with multilingual hate speech data |
-| Metrics   | Accuracy, Precision, Recall, F1               |
+| **Component** | **Description**                                                                                                    |
+| ------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **Tokenizer** | **XLM-RoBERTa Tokenizer** (Supports Tamil text tokenization)                                                       |
+| **Model**     | **XLMRobertaForSequenceClassification** fine-tuned **only on Tamil hate speech dataset**                           |
+| **Training**  | Trained **exclusively on Tamil hate speech datasets**                                                              |
+| **Metrics**   | **Accuracy**, **Precision**, **Recall**, **F1-Score**, **Confusion Matrix** for Tamil text classification accuracy |
 
 
 ## 📜 License
