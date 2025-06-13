@@ -7,8 +7,8 @@
 [![Requirements](https://img.shields.io/badge/Requirements-pandas%2C%20sklearn%2C%20transformers-blue)]()
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
 
-## Tamil Hate Speech Detector 🇮🇳🗣️##
-Tamil Hate Speech Detector is a specialized machine learning project built to automatically detect hate or offensive speech in Tamil text. Using Natural Language Processing (NLP) techniques combined with multilingual transformer models (XLM-RoBERTa), this project aims to classify Tamil user-generated content into normal, offensive, or hateful categories.
+## Tamil Hate Speech Detector 🇮🇳🗣️
+**Tamil Hate Speech Detector** is a specialized machine learning project built to automatically detect hate or offensive speech in Tamil text. Using Natural Language Processing (NLP) techniques combined with multilingual transformer models (XLM-RoBERTa), this project aims to classify Tamil user-generated content into normal, offensive, or hateful categories.
 
 It is designed to help platforms and communities moderate Tamil regional language content and maintain a safe digital environment.
 
@@ -18,13 +18,10 @@ This project is intended for researchers, developers, and students who want to b
 
 - 🧠 **Tamil Language Hate Speech Detection**
   - Focused exclusively on Tamil regional language content.
-
 - ⚡ **State-of-the-art Transformer Model**
   - Utilizes **XLM-RoBERTa**, a multilingual transformer model fine-tuned for Tamil hate speech classification.
-
 - 📚 **Dataset**
   - Uses real-world **Tamil datasets** from **Kaggle** and other research sources.
-
 - 📊 **Model Evaluation**
   - Provides detailed evaluation using:
     - **Accuracy**
@@ -32,13 +29,11 @@ This project is intended for researchers, developers, and students who want to b
     - **Recall**
     - **F1-Score**
     - **Confusion Matrix**
-
 - 🧪 **Research-ready**
   - Suitable for:
     - **Academic research**
     - **AI/ML projects**
     - **Thesis/dissertation work**
-
 - ♿ **Impact**
   - Supports **Tamil content moderation**.
   - Helps promote **safe, respectful, and inclusive online spaces** for Tamil-speaking users.
@@ -56,7 +51,7 @@ This project is intended for researchers, developers, and students who want to b
 | 📝 **Development Tools**    | Jupyter Notebook, VS Code, Google Colab                        |
 | 🗃️ **Dataset**             | **Tamil Hate Speech Dataset** (from Kaggle & Research Sources) |
 
-## 📁 Folder Structure##
+## 📁 Folder Structure
 
 
 tamil-hate-speech-detector/
@@ -71,7 +66,7 @@ tamil-hate-speech-detector/
 ├── LICENSE
 └── troubleshooting.txt
 
-## 📈 Model Overview##
+## 📈 Model Overview
 
 
 | **Component** | **Description**                                                                                                    |
@@ -82,6 +77,6 @@ tamil-hate-speech-detector/
 | **Metrics**   | **Accuracy**, **Precision**, **Recall**, **F1-Score**, **Confusion Matrix** for Tamil text classification accuracy |
 
 
-## 📜 License##
+## 📜 License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
