@@ -7,7 +7,7 @@
 [![Requirements](https://img.shields.io/badge/Requirements-pandas%2C%20sklearn%2C%20transformers-blue)]()
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
 
-## Tamil Hate Speech Detector 🇮🇳🗣️
+## Tamil Hate Speech Detector🗣️
 **Tamil Hate Speech Detector** is a specialized machine learning project built to automatically detect hate or offensive speech in Tamil text. Using Natural Language Processing (NLP) techniques combined with multilingual transformer models (XLM-RoBERTa), this project aims to classify Tamil user-generated content into normal, offensive, or hateful categories.
 
 It is designed to help platforms and communities moderate Tamil regional language content and maintain a safe digital environment.
@@ -39,7 +39,7 @@ This project is intended for researchers, developers, and students who want to b
   - Helps promote **safe, respectful, and inclusive online spaces** for Tamil-speaking users.
 
 
-## 🛠 Tech Stack##
+## 🛠 Tech Stack
 
 | 💡 Area                     | 🧰 Tools & Libraries                                           |
 | --------------------------- | -------------------------------------------------------------- |
