@@ -8,24 +8,33 @@
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
 
 **Tamil Hate Speech Detector 🇮🇳🗣️**
-Tamil Hate Speech Detector is a specialized machine learning project built to automatically detect hate or offensive speech in Tamil text. Using Natural Language Processing (NLP) techniques combined with multilingual transformer models (XLM-RoBERTa), this project aims to classify Tamil user-generated content into normal, offensive, or hateful categories. It is designed to help platforms and communities moderate Tamil regional language content and maintain a safe digital environment.
+Tamil Hate Speech Detector is a specialized machine learning project built to automatically detect hate or offensive speech in Tamil text. Using Natural Language Processing (NLP) techniques combined with multilingual transformer models (XLM-RoBERTa), this project aims to classify Tamil user-generated content into normal, offensive, or hateful categories.
+
+It is designed to help platforms and communities moderate Tamil regional language content and maintain a safe digital environment.
 
 This project is intended for researchers, developers, and students who want to build ethical AI systems that address the increasing problem of cyberbullying and online hate speech in Tamil.
 
-🚀**Features**
-🧠 **Tamil Language Hate Speech Detection**
-    Focused exclusively on Tamil regional language content
-⚡ **State-of-the-art Transformer Model**
-    Fine-tuned XLM-RoBERTa for Tamil hate speech classification
-📚**Dataset**
-    Uses real-world Tamil datasets from Kaggle and research sources
-📊 **Model Evaluation**
-    Comprehensive metrics: Accuracy, Precision, Recall, F1-Score, Confusion Matrix
-🧪 **Research-ready**
-    Suitable for academic research, AI/ML projects, and thesis work
-♿ **Impact**
-    Supports Tamil content moderation
-Helps in promoting safe, respectful, and inclusive online spaces for Tamil-speaking users
+🚀 Features
+🧠 Tamil Language Hate Speech Detection
+Focused exclusively on Tamil regional language content.
+
+⚡ State-of-the-art Transformer Model
+Fine-tuned XLM-RoBERTa for Tamil hate speech classification.
+
+📚 Dataset
+Uses real-world Tamil datasets from Kaggle and research sources.
+
+📊 Model Evaluation
+Comprehensive metrics: Accuracy, Precision, Recall, F1-Score, Confusion Matrix.
+
+🧪 Research-ready
+Suitable for academic research, AI/ML projects, and thesis work.
+
+♿ Impact
+Supports Tamil content moderation.
+Helps create safe, respectful, and inclusive online spaces for Tamil-speaking users.
+
+
 
 
 | 💡 Area                     | 🧰 Tools & Libraries                                           |
