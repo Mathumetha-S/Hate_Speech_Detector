@@ -8,7 +8,7 @@
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
 
 ## Tamil Hate Speech Detector🗣️
-**Tamil Hate Speech Detector** is a specialized machine learning project built to automatically detect hate or offensive speech in Tamil text. Using Natural Language Processing (NLP) techniques combined with multilingual transformer models (XLM-RoBERTa), this project aims to classify Tamil user-generated content into normal, offensive, or hateful categories.
+**Tamil Hate Speech Detector** is a specialized machine learning project built to automatically detect hate or offensive speech in Tamil text. Using Natural Language Processing (NLP) techniques combined with multilingual transformer models (bert-base-multilingual-cased) this project aims to classify Tamil user-generated content into normal, offensive, or hateful categories.
 
 It is designed to help platforms and communities moderate Tamil regional language content and maintain a safe digital environment.
 
@@ -19,7 +19,7 @@ This project is intended for researchers, developers, and students who want to b
 - 🧠 **Tamil Language Hate Speech Detection**
   - Focused exclusively on Tamil regional language content.
 - ⚡ **State-of-the-art Transformer Model**
-  - Utilizes **XLM-RoBERTa**, a multilingual transformer model fine-tuned for Tamil hate speech classification.
+  - Utilizes **bert-base-multilingual-cased**, a multilingual transformer model fine-tuned for Tamil hate speech classification.
 - 📚 **Dataset**
   - Uses real-world **Tamil datasets** from **Kaggle** and other research sources.
 - 📊 **Model Evaluation**
@@ -46,7 +46,7 @@ This project is intended for researchers, developers, and students who want to b
 | 🐍 **Programming Language** | Python 3.10+                                                   |
 | 📚 **Data Handling**        | `pandas`, `numpy`                                              |
 | 🤖 **Machine Learning**     | `scikit-learn`, `transformers`                                 |
-| 🧠 **NLP Model**            | `XLM-RoBERTa` (Hugging Face Transformers)                      |
+| 🧠 **NLP Model**            | `bert-base-multilingual-cased (Hugging Face Transformers)                    |
 | 📊 **Visualization**        | `matplotlib`, `seaborn`                                        |
 | 📝 **Development Tools**    | Jupyter Notebook, VS Code, Google Colab                        |
 | 🗃️ **Dataset**             | **Tamil Hate Speech Dataset** (from Kaggle & Research Sources) |
@@ -58,8 +58,6 @@ tamil-hate-speech-detector/
 ├── datasets/
 │   └── tamil_offensive_speech_train.csv
 │   └── tamil_offensive_speech_val.csv
-├── models/
-│   └── xlm-roberta/
 ├── tamil_hate_speech_detector.ipynb
 ├── requirements.txt
 ├── README.md
@@ -71,8 +69,8 @@ tamil-hate-speech-detector/
 
 | **Component** | **Description**                                                                                                    |
 | ------------- | ------------------------------------------------------------------------------------------------------------------ |
-| **Tokenizer** | **XLM-RoBERTa Tokenizer** (Supports Tamil text tokenization)                                                       |
-| **Model**     | **XLMRobertaForSequenceClassification** fine-tuned **only on Tamil hate speech dataset**                           |
+| **Tokenizer** | **bert-base-multilingual-cased Tokenizer** (Supports Tamil text tokenization)                                                       |
+| **Model**     | **bert-base-multilingual-casedForSequenceClassification** fine-tuned **only on Tamil hate speech dataset**                           |
 | **Training**  | Trained **exclusively on Tamil hate speech datasets**                                                              |
 | **Metrics**   | **Accuracy**, **Precision**, **Recall**, **F1-Score**, **Confusion Matrix** for Tamil text classification accuracy |
 
