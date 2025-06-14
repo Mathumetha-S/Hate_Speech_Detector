@@ -46,7 +46,7 @@ This project is intended for researchers, developers, and students who want to b
 | 🐍 **Programming Language** | Python 3.10+                                                   |
 | 📚 **Data Handling**        | `pandas`, `numpy`                                              |
 | 🤖 **Machine Learning**     | `scikit-learn`, `transformers`                                 |
-| 🧠 **NLP Model**            | `bert-base-multilingual-cased (Hugging Face Transformers)                    |
+| 🧠 **NLP Model**            | `bert-base-multilingual-cased`  (Hugging Face Transformers)                    |
 | 📊 **Visualization**        | `matplotlib`, `seaborn`                                        |
 | 📝 **Development Tools**    | Jupyter Notebook, VS Code, Google Colab                        |
 | 🗃️ **Dataset**             | **Tamil Hate Speech Dataset** (from Kaggle & Research Sources) |
